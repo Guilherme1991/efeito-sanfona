@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interacao</title>
+</head>
+<body>
+
+    <style>
+      *{
+          padding: 0;
+          margin: 0;
+          padding: 20px;
+      }
+      body{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
+      .seletor, .seletorUm, .seletorDois{
+          overflow: hidden;
+          width: 300px;
+          height: 60px;
+          padding: 20px;
+          border: 1px solid black;
+          transition: 0.6s;
+          margin: 20px;
+      }
+      .img{
+          cursor: pointer;
+      }
+      .ativa{
+          height: 400px;
+      }
+      .ativaUm{
+          height: 400px;
+      }
+      .ativaDois{
+          height: 400px;
+      }
+    </style>
+    <div class="seletor">
+        <img src="mais.png" alt="" width="20px" class="img" onclick="ativa()">
+        <h2>lorem ipun dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+             omnis, placeat eos corporis maiores molestias nam quam, laborum non
+              officia iure adipisci
+             quaerat perferendis amet. Iusto dolore sunt quae voluptas.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+             omnis, placeat eos corporis maiores molestias nam quam, laborum non
+              officia iure adipisci
+             quaerat perferendis amet. Iusto dolore sunt quae voluptas.</p>
+    </div>
+       <div class="seletorUm">
+        <img src="mais.png" alt="" width="20px" class="img" onclick="ativaUm()">
+        <h2>lorem ipun dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+             omnis, placeat eos corporis maiores molestias nam quam, laborum non
+              officia iure adipisci
+             quaerat perferendis amet. Iusto dolore sunt quae voluptas.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+             omnis, placeat eos corporis maiores molestias nam quam, laborum non
+              officia iure adipisci
+             quaerat perferendis amet. Iusto dolore sunt quae voluptas.</p>
+    </div>
+       <div class="seletorDois">
+        <img src="mais.png" alt="" width="20px" class="img" onclick="ativaDois()">
+        <h2>lorem ipun dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+             omnis, placeat eos corporis maiores molestias nam quam, laborum non
+              officia iure adipisci
+             quaerat perferendis amet. Iusto dolore sunt quae voluptas.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+             omnis, placeat eos corporis maiores molestias nam quam, laborum non
+              officia iure adipisci
+             quaerat perferendis amet. Iusto dolore sunt quae voluptas.</p>
+    </div>
+
+    <script src="js/script.js">
+    
+    </script>
+</body>
+</html>
